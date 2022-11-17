@@ -9,6 +9,7 @@ import { Item, HeaderButtons } from 'react-navigation-header-buttons';
 import * as AuthAction from '../store/actions/Auth';
 import { useDispatch } from 'react-redux';
 import HeaderButton from '../components/HeaderButton';
+import Icon from 'react-native-vector-icons/Ionicons'
 
 
 const CategoriesScreen = props => {
@@ -24,6 +25,7 @@ const CategoriesScreen = props => {
     const renderCategoryItem = itemData => {
     return (
             <CategoryItem
+            id={itemData.item.id}
             title={itemData.item.title}
             imgUrl={itemData.item.imgUrl}
             onSelect= {()=> {
@@ -49,24 +51,26 @@ const CategoriesScreen = props => {
 };
 
 export const ScreenOptions = navData => {
-  const dispatch= useDispatch;
+ const dispatch = useDispatch();
     return {
+      
       headerTitle: 'All Technologies',
-      // headerRight:
-      //  () => {
-      //   return (
-      //     <HeaderButtons HeaderButtonComponent={HeaderButton}>
-      //       <Item
-      //         title="Log Out"
-      //         // iconName={Platform.OS === 'android' ? 'people' : 'people'}
-      //         onPress={() => {
-      //           // dispatch(AuthAction.Logout())
-      //         }}
+      headerRight:
+       () => {
+        return (
+          <HeaderButtons HeaderButtonComponent={HeaderButton}>
+            <Item
+              title="Log Out"
+              // iconName={Platform.OS === 'android' ? 'people' : 'people'}
+              onPress={() => {
+                
+                dispatch(AuthAction.Logout())
+              }}
   
-      //       />
-      //     </HeaderButtons>
-      //   )
-      // },
+            />
+          </HeaderButtons>
+        )
+      },
   
       
     };

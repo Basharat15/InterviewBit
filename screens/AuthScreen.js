@@ -402,6 +402,7 @@ signIn1: {
 },
 textSign: {
     fontSize: 18,
+    fontFamily:'RobotoLight'
 },
 textSign1: {
     fontSize: 18,
@@ -411,11 +412,12 @@ textSign1: {
 signText: {
     color: '#888',
     fontSize: 16,
+    fontFamily:'RobotoLight'
 },
 valuetext: {
     color: Colors.primary,
     fontSize: 22,
-    fontFamily: 'Bold',
+    fontFamily: 'RobotoBold',
     marginVertical: 3
 },
 txtContainer: {

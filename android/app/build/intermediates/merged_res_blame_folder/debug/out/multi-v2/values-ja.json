@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\React Native\\RN Task\\InterviewBit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "F:\\React Native\\RN Task\\InterviewBit\\InterviewBit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Basharat Abbas\\.gradle\\caches\\transforms-3\\c7a623ec1d726bb62f87b3e538bcacc9\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ja\\values.xml",

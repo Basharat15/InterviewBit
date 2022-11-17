@@ -21,16 +21,18 @@ const QuestionsScreen = props => {
         return(
             <QuestionItem
             question={itemData.item.question}
-            quesitonTitle={itemData.item.questionTitle}
 
             onSelect= {()=> {
-                selectItemHandler(itemData.item.id, itemData.item.questionTitle);
+                selectItemHandler(itemData.item.id);
             }}
             />    
         )
     }
     return (
         <View style={styles.screen}>
+          <View style={styles.levelView}>
+          <Text style={styles.levelText}>All Questions</Text>
+          </View>
         <FlatList
         data={displayedQuestions}
         keyExtractor={(item, index) => item.id}
@@ -54,6 +56,21 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    levelView:{
+      height:50,
+      width:'85%',
+      marginTop:5,
+      marginBottom:5,
+      borderRadius:20,
+      backgroundColor:'orange',
+      alignItems:'center',
+      justifyContent:'center'
+  },
+  levelText:{
+    fontSize:16,
+    padding:5,
+    fontFamily:'RobotoLight'
+  }
 });
 
 export default QuestionsScreen;

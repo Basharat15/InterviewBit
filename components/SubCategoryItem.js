@@ -23,12 +23,12 @@ const SubCategoryItem = props => {
 const styles=StyleSheet.create({
     mainContainer:{
         height: 120,
-        width: '60%',
-        marginLeft:'20%',
+        width: '70%',
+        marginLeft:'15%',
         borderRadius: 10,
         overflow: 'hidden',
         margin:3,
-        marginTop:75,
+        marginTop:50,
 
     },
     container:{
@@ -40,15 +40,15 @@ const styles=StyleSheet.create({
         shadowRadius: 10,
         elevation: 2,
         padding: 15,
-        justifyContent: 'flex-start',
-        backgroundColor: '#415240',
+        backgroundColor: Colors.primary,
         justifyContent:'center',
         alignItems:'center'
             
     },
     text:{
-        fontSize:16,
-        color:'white'
+        fontSize:18,
+        color:'white',
+        fontFamily:'RobotoBold'
     }
 });
 

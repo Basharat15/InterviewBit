@@ -44,7 +44,8 @@ const styles= StyleSheet.create({
     title:{
         textAlign:'center',
         fontSize:16,
-        marginTop:2
+        marginTop:2,
+        fontFamily:'RobotoBold'
         
     },
     imgContainer:{

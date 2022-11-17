@@ -8,8 +8,7 @@ import {   CATEGORIES,  SUBCATEGORIES } from '../data/dummy-data';
 const SubCategoriesScreen = props => {
     const categoryId = props.route.params.categoryId;
     const displayedSubCategories = SUBCATEGORIES.filter(
-        SubCategory => SubCategory.categoryIds.indexOf(categoryId)  >= 0
-      );
+        subCategory => subCategory.categoryIds.indexOf(categoryId)  >=0);
 
       const selectItemHandler = (id, title) => {
         props.navigation.navigate('Questions Screen', {
@@ -61,15 +60,16 @@ const styles = StyleSheet.create({
     },
     levelView:{
         height:50,
-        width:'75%',
+        width:'85%',
         marginTop:20,
         borderRadius:20,
-        backgroundColor:Colors.primary,
+        backgroundColor:'orange',
         alignItems:'center',
         justifyContent:'center'
     },
     levelText:{
       fontSize:16,
+      fontFamily:'RobotLight'
     }
 });
 

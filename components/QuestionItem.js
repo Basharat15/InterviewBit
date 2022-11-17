@@ -34,7 +34,7 @@ const styles=StyleSheet.create({
     container:{
         flex: 1,
         borderRadius: 5,
-        shadowColor: 'black',
+        shadowColor:'black',
         shadowOpacity: 0.26,
         shadowOffset: { width: 0, height: 2 },
         shadowRadius: 10,
@@ -45,7 +45,9 @@ const styles=StyleSheet.create({
             
     },
     text:{
-        fontSize:16
+        fontSize:16,
+        fontFamily:'Roboto-Light'
+        
     }
 });
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\React Native\\RN Task\\InterviewBit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
+            "outputFile": "F:\\React Native\\RN Task\\InterviewBit\\InterviewBit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Basharat Abbas\\.gradle\\caches\\transforms-3\\17b7260191d990fb2ac59527153b53d6\\transformed\\browser-1.4.0\\res\\values-gl\\values-gl.xml",

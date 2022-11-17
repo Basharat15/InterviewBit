@@ -184,7 +184,7 @@ const SignUp = (props) => {
                 {/* for email */}
                 <View style={styles.txtContainer}>
                     <Text style={styles.valuetext}>Interview Bit</Text>
-                    <Text style={styles.signText}>please sign up to continue</Text>
+                    <Text style={styles.signText}>Please sign up to continue</Text>
                 </View>
                 <Text style={styles.text_footer}>E-mail</Text>
                 <View style={styles.action}>
@@ -413,6 +413,7 @@ const styles = StyleSheet.create({
     signText: {
         color: '#888',
         fontSize: 16,
+        fontFamily:'RobotoLight'
     },
     valuetext: {
         color: Colors.primary,

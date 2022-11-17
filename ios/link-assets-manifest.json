@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/font/Bold.ttf",
+      "sha1": "1e3704ee48b5ff7e582488ead87b05249f14dc1c"
+    },
+    {
+      "path": "assets/font/Regular.ttf",
+      "sha1": "dc9c07303a2392f9ee02fdb636814970753ac94a"
+    },
+    {
+      "path": "assets/font/RobotoBold.ttf",
+      "sha1": "013f1bbcbbd80991a5f00fca52a90d0d7ab8b81f"
+    },
+    {
+      "path": "assets/font/RobotoLight.ttf",
+      "sha1": "51dbae4543aaa10096e344e48fcffe468bd314a9"
+    },
+    {
+      "path": "assets/font/RobotoRegular.ttf",
+      "sha1": "84d102488738b0ebbc7a5087973effbd54c95bd5"
+    }
+  ]
+}
